@@ -20,6 +20,15 @@ which are not. It supports regular expressions. It has interactive
 menus for editing given regular expressions and deleting and adding
 windows.
 
+%description -l pl
+multitail pozwala ogl±daæ jeden lub wiêcej plików podobnie jak
+oryginalny program tail. Ró¿nica jest taka, ¿e tworzy wiele okien
+na terminalu (z u¿yciem ncurses). Mo¿e tak¿e u¿ywaæ kolorów przy
+wy¶wietlaniu plików logów w celu szybszego odró¿nienia, które linie s±
+wa¿ne, a które nie. Obs³uguje wyra¿enia regularne. Ma interaktywne
+menu do edycji podanych wyra¿eñ regularnych oraz usuwania i dodawania
+okien.
+
 %prep
 %setup -q
 %patch0 -p1
