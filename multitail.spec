@@ -1,9 +1,9 @@
 Summary:	Advanced tail
 Summary(pl):	Rozbudowany tail
 Name:		multitail
-Version:	1.9
+Version:	2.3
 Release:	1
-License:	GPL v2
+License:	GPL
 Group:		Applications/Text
 Source0:	http://www.vanheusden.com/%{name}/%{name}-%{version}.tgz
 Patch0:		%{name}-dont_strip.patch
@@ -50,5 +50,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc readme.txt
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
