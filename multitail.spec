@@ -1,12 +1,11 @@
 Summary:	Advanced tail
 Summary(pl):	Rozbudowany tail
 Name:		multitail
-Version:	2.3
+Version:	2.6
 Release:	1
 License:	GPL
 Group:		Applications/Text
 Source0:	http://www.vanheusden.com/%{name}/%{name}-%{version}.tgz
-Patch0:		%{name}-dont_strip.patch
 URL:		http://www.vanheusden.com/multitail/
 BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -31,7 +30,6 @@ okien.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %{__make} \
@@ -50,6 +48,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc readme.txt
+%doc Changes readme.txt
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
