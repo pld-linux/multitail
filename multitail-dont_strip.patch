@@ -1,0 +1,10 @@
+--- multitail-1.9/Makefile.orig	Sun Apr 20 17:30:09 2003
++++ multitail-1.9/Makefile	Sun Apr 20 17:30:47 2003
+@@ -12,7 +12,6 @@
+ 
+ multitail: $(OBJS)
+ 	$(CC) -Wall -W $(OBJS) $(LDFLAGS) -o multitail
+-	strip multitail
+ 
+ install: multitail
+ 	cp multitail /usr/local/bin
