@@ -1,14 +1,14 @@
 Summary:	Advanced tail
 Summary(pl):	Rozbudowany tail
 Name:		multitail
-Version:	3.4.5
+Version:	3.6.0
 Release:	1
 License:	GPL
 Group:		Applications/Text
 Source0:	http://www.vanheusden.com/%{name}/%{name}-%{version}.tgz
-# Source0-md5:	9473aa74de9277a9ba4afe5b76d94086
+# Source0-md5:	606338755241c98e0619acf9a71d9d9c
 URL:		http://www.vanheusden.com/multitail/
-BuildRequires:	ncurses-devel
+BuildRequires:	ncurses-ext-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
