@@ -35,7 +35,7 @@ okien.
 %build
 %{__make} \
 	CC="%{__cc}" \
-	CFLAGS="-DLinux -DVERSION=\\\"%{version}\\\" -Wall %{rpmcflags} -I%{_includedir}/ncurses"
+	CFLAGS="-DLinux -DVERSION=\\\"%{version}\\\" -Wall %{rpmcflags} -I/usr/include/ncurses"
 
 %install
 rm -rf $RPM_BUILD_ROOT
