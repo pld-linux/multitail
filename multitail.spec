@@ -1,12 +1,12 @@
 Summary:	Advanced tail
 Summary(pl):	Rozbudowany tail
 Name:		multitail
-Version:	3.6.0
+Version:	4.0.3
 Release:	1
 License:	GPL
 Group:		Applications/Text
 Source0:	http://www.vanheusden.com/multitail/%{name}-%{version}.tgz
-# Source0-md5:	606338755241c98e0619acf9a71d9d9c
+# Source0-md5:	b6017e19aa7cf7e2b4fddd75a596a1a7
 URL:		http://www.vanheusden.com/multitail/
 BuildRequires:	ncurses-ext-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -35,7 +35,7 @@ okien.
 %build
 %{__make} \
 	CC="%{__cc}" \
-	CFLAGS="-DLinux -DVERSION=\\\"%{version}\\\" -Wall %{rpmcflags} -I/usr/include/ncurses"
+	CFLAGS="-DLinux -DVERSION=\\\"%{version}\\\" -Wall %{rpmcflags} -I/usr/include/ncurses -DCONFIG_FILE=\\\"%{_sysconfdir}/%{name}.conf\\\""
 
 %install
 rm -rf $RPM_BUILD_ROOT
