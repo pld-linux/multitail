@@ -1,5 +1,5 @@
 Summary:	Advanced tail
-Summary(pl):	Rozbudowany tail
+Summary(pl.UTF-8):   Rozbudowany tail
 Name:		multitail
 Version:	4.2.0
 Release:	1
@@ -20,13 +20,13 @@ which are not. It supports regular expressions. It has interactive
 menus for editing given regular expressions and deleting and adding
 windows.
 
-%description -l pl
-multitail pozwala ogl±daæ jeden lub wiêcej plików podobnie jak
-oryginalny program tail. Ró¿nica jest taka, ¿e tworzy wiele okien na
-terminalu (z u¿yciem ncurses). Mo¿e tak¿e u¿ywaæ kolorów przy
-wy¶wietlaniu plików logów w celu szybszego odró¿nienia, które linie s±
-wa¿ne, a które nie. Obs³uguje wyra¿enia regularne. Ma interaktywne
-menu do edycji podanych wyra¿eñ regularnych oraz usuwania i dodawania
+%description -l pl.UTF-8
+multitail pozwala oglÄ…daÄ‡ jeden lub wiÄ™cej plikÃ³w podobnie jak
+oryginalny program tail. RÃ³Å¼nica jest taka, Å¼e tworzy wiele okien na
+terminalu (z uÅ¼yciem ncurses). MoÅ¼e takÅ¼e uÅ¼ywaÄ‡ kolorÃ³w przy
+wyÅ›wietlaniu plikÃ³w logÃ³w w celu szybszego odrÃ³Å¼nienia, ktÃ³re linie sÄ…
+waÅ¼ne, a ktÃ³re nie. ObsÅ‚uguje wyraÅ¼enia regularne. Ma interaktywne
+menu do edycji podanych wyraÅ¼eÅ„ regularnych oraz usuwania i dodawania
 okien.
 
 %prep
