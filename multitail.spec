@@ -1,5 +1,5 @@
 Summary:	Advanced tail
-Summary(pl.UTF-8):   Rozbudowany tail
+Summary(pl.UTF-8):	Rozbudowany tail
 Name:		multitail
 Version:	4.2.0
 Release:	1
