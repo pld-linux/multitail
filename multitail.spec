@@ -1,12 +1,12 @@
 Summary:	Advanced tail
 Summary(pl.UTF-8):	Rozbudowany tail
 Name:		multitail
-Version:	6.2.1
+Version:	6.4.1
 Release:	1
 License:	GPL
 Group:		Applications/Text
 Source0:	http://www.vanheusden.com/multitail/%{name}-%{version}.tgz
-# Source0-md5:	f83419bd2b90ae4227c5a3ce2f66b56d
+# Source0-md5:	e82a32f090d61665524b1e866d7d57ca
 URL:		http://www.vanheusden.com/multitail/
 BuildRequires:	ncurses-ext-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -50,7 +50,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes readme.txt manual.html
+%doc readme.txt manual.html
 %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/%{name}.conf
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
